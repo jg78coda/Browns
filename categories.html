@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mycss.css">
+    
+    
+  </head>
+
+  <body onload="init()">
+
+  <div class="container-fluid center bgdpattern">
+
+      <div class="row header no-gutter border-bottom">
+
+          <div class="col-2">
+            <img src="images/helmet_100.png" class="img-fluid" alt="Helmet">
+          </div>
+          
+          <div class="col-8 text-center">
+            <p>Browns Trivia Game</p>
+          </div>
+
+          <div class="col-2" style="padding-top:.5rem;" >
+            <button id="openMenuBtn" class="btn btn-dark btn-sm myButton">Menu</button>
+          </div>
+
+    </div>
+
+      <div class="row border-bottom photoBlock">
+          <div class="col" style="padding: 0px;" >
+            <img src="images/sectionPhoto.jpg" alt="Browns" width="100%" height="auto">
+          </div>
+      </div>
+
+      <div id="orange" class="row sectionTitle border-bottom text-center">
+          <div class="col">
+              <div id="categoryTitle" ></div>
+          </div>
+      </div>
+
+      <div id="insert" class="insert" >
+     
+      </div>
+
+    <!-- Menu Modal -->
+      <div id="menuModal" class="themodal">
+
+        <!-- Menu Modal content -->
+        <div id="menuModalContent" class="modal-content">
+
+            <div class="modal-header">
+               <h4>Menu</h4>
+            </div>
+
+            <div class="modal-body">
+
+              <h1 id="modalTitle" ></h1>
+
+                <a href="categories.html">
+                  <p class="menuDivs">Categories</p>
+                </a>
+                <a href="score.html">
+                  <p class="menuDivs">Score Page</p>
+                </a>
+                <a href="index.html">
+                  <p class="menuDivs">Home Page</p>
+                </a>
+            </div>
+                    <div>
+                      <button class="btn myModalBtn myMenuBtn" onclick='game.closeMenu()'>Cancel</button>
+                      <button class="btn myModalBtn myMenuBtn" onclick='game.exitGame()'>Exit Game</button>
+                    </div>
+            
+        </div>
+      </div>  <!-- End Menu Modal --> 
+
+  </div>  <!-- end container fluid -->
+
+  <script src="script/categories_script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+</body>
+</html>

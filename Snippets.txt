@@ -1,0 +1,7 @@
+<button id="menuBtn" class="btn myModalBtn myMenuBtn" onclick='game.closeMenu()'>Cancel</button>
+
+<a href="categories.html"><p class="menuDivs">Categories</p></a>
+
+background: url(../images/div-bgd_Artboard2.png) no-repeat;
+
+<object id="marker" type="image/svg+xml" data="images/marker.svg" class="logo"></object>
