@@ -1,0 +1,85 @@
+{ "subject" : "This, That and the Other",
+
+	"questions" : [
+
+ 	{ 
+		"question": "Was 'Cleveland' ever mentioned on Seinfeld?",
+		"correct": "Yes",
+		"answers": [
+			{ "a": "Yes" },
+			{ "a": "No" }
+		]
+		
+	},
+
+	{
+		"question": "What was Bernie's number at Miami?",
+		"correct": "20",
+		"answers": [
+			{ "a": "17" },
+			{ "a": "18" },
+			{ "a": "19" },
+			{ "a": "20" }
+		]
+	},
+
+	{
+		"question": "Nebraska would have beaten Bernie if they...",
+		"correct": "Converted the two point conversion.",
+		"answers": [
+			{ "a": "Kicked the field goal." },
+			{ "a": "Scored a touchdown." },
+			{ "a": "Made the extra point field goal." },
+			{ "a": "Converted the two point conversion." }
+		]
+	},
+
+	{
+		"question": "Who do I hate the most?",
+		"correct": "Steroid Dumb Harrison",
+		"answers": [
+			{ "a": "Ejaculate Reception Franco" },
+			{ "a": "Stupid Bradshaw" },
+			{ "a": "Steroid Dumb Harrison" },
+			{ "a": "&quot;Three Stooges&quot; throwback uniforms" }
+		]
+	},
+
+	{ 
+		"question": "Who was the opposing quarterback when the Browns won the first monday Night game ever?",
+		"correct": "Joe Namath",
+		"answers": [
+			{ "a": "Joe Namath" },
+			{ "a": "Bob Griese" },
+			{ "a": "Errol Morral" }
+		]
+	},
+
+	{
+		"question": "Greatest defensive sack ever.",
+		"correct": "Joe Turkey Jones",
+		"answers": [
+			{ "a": "Joe Turkey Jones" }
+			
+		]
+	},
+
+	{
+		"question": "Who had a 100 yard kickoff TD to help break the jinx at Yhree Urinal Stadium?",
+		"correct": "Ice Cube NcNeil",
+		"answers": [
+			{ "a": "Dino Hall" },
+			{ "a": "Ice Cube NcNeil" },
+			{ "a": "Eric Metcalf"}
+		]
+	},
+	{
+		"question": "In the most underrated upset in sports history, th Browns defeat Spittburgh in 1999.",
+		"correct": "True",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+	}
+
+	]}

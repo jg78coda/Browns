@@ -1,0 +1,102 @@
+{ "subject" : "The Bernie Kosar Years",
+
+	"questions" : [
+
+	{
+		"question": "Did Bernie win his first professional start with the Browns?",
+		"correct": "Yes",
+		"answers": [
+			{ "a": "Yes" },
+			{ "a": "No" }
+		]
+	},
+
+ 	{ 
+		"question": "Bernie set the NFL record <i>&quot;Consecutive passes without an interception&quot;<\/i> with?",
+		"correct": "308",
+		"answers": [
+			{ "a": "274" },
+			{ "a": "294" },
+			{ "a": "308" },
+			{ "a": "341" }
+		]
+		
+	},
+
+	{
+		"question": "Who broke the record?",
+		"correct": "Tom Brady",
+		"answers": [
+			{ "a": "Brett Favre" },
+			{ "a": "Tom Brady" },
+			{ "a": "Peyton Manning" },
+			{ "a": "Drew Brees" }
+		]
+	},
+
+	{
+		"question": "In 1986, the Browns went 12-4, BK threw for over 3800 yards, did BK make the Pro Bowl?",
+		"correct": "No",
+		"answers": [
+			{ "a": "Yes" },
+			{ "a": "No" }
+		]
+	},
+
+	{
+		"question": "In his <em>Colossal<\/em> 489 yard passing performance vs. the Jets, who else threw a completed pass?",
+		"correct": "Brian Brennan",
+		"answers": [
+			{ "a": "Herman Fontenot" },
+			{ "a": "Ozzie Newsome" },
+			{ "a": "Brian Brennan" },
+			{ "a": "Clay Matthews" }
+		]
+	},
+
+	{
+		"question": "The 489 yards passing was a playoff record at the time.",
+		"correct": "True",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+	},
+
+	{
+		"question": "Who broke that record?",
+		"correct": "Tom Brady",
+		"answers": [
+			{ "a": "Peyton Manning" },
+			{ "a": "Dan Fouts" },
+			{ "a": "Dan Marino" },
+			{ "a": "Tom Brady" }
+		]
+	},
+
+	{
+		"question": "Bernie throws for an incredible 414 yards at ThreeUrinal Stadium to sweep the Squealers, who caught the BIG pass?",
+		"correct": "Webster Slaughter",
+		"answers": [
+			{ "a": "Webster Slaughter" },
+			{ "a": "Reggie Langhorne"},
+			{ "a": "Brian Brennan" },
+			{ "a": "Clay Matthews" }
+		]
+	},
+
+	{
+		"question": "How many Touchdowns did BK rush for in his career?",
+		"correct": "5",
+		"answers": [
+			{ "a": "1" },
+			{ "a": "3" },
+			{ "a": "5" }
+		]
+	}
+
+	
+
+	
+
+	]}

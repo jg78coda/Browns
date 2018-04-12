@@ -1,0 +1,28 @@
+{ "subject" : "The Bernie Kosar Years",
+
+	"questions" : [
+
+ 	{ 
+		"question": "Bernie set the NFL record 'Consecutive passes without an interception' with this many passes.",
+		"correct": "308",
+		"answers": [
+			{ "a": "209" },
+			{ "a": "221" },
+			{ "a": "308" },
+			{ "a": "341" }
+		]
+		
+	},
+
+	{
+		"question": "What was Bernie's number at Miami?",
+		"correct": "20",
+		"answers": [
+			{ "a": "17" },
+			{ "a": "18" },
+			{ "a": "19" },
+			{ "a": "20" }
+		]
+	}
+
+	]}

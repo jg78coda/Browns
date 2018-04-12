@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" viewBox="0 0 107.5 190.3" xml:space="preserve" enable-background="new 0 0 107.5 190.3">
+  <style type="text/css">
+    
+	.st4{fill:#FFDA00;stroke:#999999;stroke-width:2;stroke-miterlimit:10;}
+
+  </style>
+  
+  <g id="Holder">
+    <path class="st4" d="M44.5 187h-10v-65c0-2.8 2.2-5 5-5h0c2.8 0 5 2.2 5 5V187z"/>
+    <path class="st4" d="M84.5 187h-10v-45c0-2.8 2.2-5 5-5h0c2.8 0 5 2.2 5 5V187z"/>
+    <rect x="34.5" y="157" class="st4" width="50" height="10"/>
+  </g>
+</svg>

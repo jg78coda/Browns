@@ -1,0 +1,67 @@
+{ "subject" : "The Kardiac Kids",
+
+	"questions" : [
+
+ 	{ 
+		"question": "Most wins in a season?",
+		"correct": "11",
+		"answers": [
+			{ "a": "10" },
+			{ "a": "11" },
+			{ "a": "12" }
+			
+		]
+		
+	},
+
+	{
+		"question": "Brian Sipe was named NFL MVP in 1980",
+		"correct": "True",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+	},
+
+	{
+		"question": "What player was drafted by the Browns in three sports?",
+		"correct": "Dave Logan",
+		"answers": [
+			{ "a": "Paul McDonald" },
+			{ "a": "Dave Logan" },
+			{ "a": "Calvin Hill" },
+			{ "a": "Brian Sipe" }
+		]
+	},
+
+	{
+		"question": "This dummy said &quot;Brian Sipe is the best QB in the league.&quot;",
+		"correct": "Terry Bradshaw",
+		"answers": [
+			{ "a": "Terry (I know I am not smart) Bradshaw" }
+			
+		]
+	},
+
+	{ 
+		"question": "What LOSER did we pick in the first round of the 1980 draft?",
+		"correct": "Charles White",
+		"answers": [
+			{ "a": "Charles White" },
+			{ "a": "Cleveland Crosby" },
+			{ "a": "Stonewall Jackson" },
+			{ "a": "Mad Dog in a Meathouse Junkin" }
+		]
+		
+	},
+
+	{
+		"question": "In 1981 the Kardiac Kids racked up another winning record.",
+		"correct": "True",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+	}
+
+	]}

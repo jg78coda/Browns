@@ -1,0 +1,16 @@
+{ "subject" : "Pick a Category",
+
+		"category": [
+			{ "a": "The 50s and 60s" },
+			{ "a": "Kardiac Kids" },
+			{ "a": "The Bernie Kosar Years" },
+			{ "a": "This, That, and the Other" }
+		],
+
+		"goToPage": [
+			{ "a": "50s_60s" },
+			{ "a": "Kardiac_Kids" },
+			{ "a": "Bernie_Kosar" },
+			{ "a": "ThisThatOther" }
+		]
+}

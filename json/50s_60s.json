@@ -1,0 +1,125 @@
+{ "subject" : "The 50s and 60s",
+
+	"questions" : [
+
+ 	{ 
+		"question": "The Browns destroyed what defending two-time defending NFL Championship team in their NFL debut?",
+		"correct": "Philadelphia Eagles",
+		"answers": [
+			{ "a": "Chicago Bears" },
+			{ "a": "Detroit Lions" },
+			{ "a": "Los Angeles Rams" },
+			{ "a": "Philadelphia Eagles" }
+		]
+		
+	},
+
+	{
+		"question": "The Browns won the championship in their first year defeating the Rams in the title game.",
+		"correct": "True",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+	},
+
+	{
+		"question": "The Browns played this team four times for the title in the 50s.",
+		"correct": "Detroit Lions",
+		"answers": [
+			{ "a": "Chicago Bears" },
+			{ "a": "Detroit Lions" },
+			{ "a": "Los Angeles Rams" },
+			{ "a": "Philadelphia Eagles" }
+		]
+	},
+
+	{
+		"question": "The Browns played the Lions in three consecutive Chapionship Games.",
+		"correct": "True",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+	},
+
+	{ 
+		"question": "Arguably the best quarterack ever.",
+		"correct": "Otto Graham",
+		"answers": [
+			{ "a": "Otto Graham" },
+			{ "a": "Milt Plum" },
+			{ "a": "Frank Ryan" },
+			{ "a": "Bill Nelson" }
+		]
+		
+	},
+
+	{ 
+		"question": "Jim Brown was drafted in what year.",
+		"correct": "1957",
+		"answers": [
+			{ "a": "1956" },
+			{ "a": "1957" },
+			{ "a": "1958" }
+		]
+		
+	},
+
+	{ 
+		"question": "Brown first broke the rushing record in?",
+		"correct": "1958",
+		"answers": [
+			{ "a": "1957" },
+			{ "a": "1958" },
+			{ "a": "1963" },
+			{ "a": "1965" }
+		]
+		
+	},
+
+	{ 
+		"question": "Jim Brown called him the greatet running back ever.",
+		"correct": "Marion Motley",
+		"answers": [
+			{ "a": "Marion Motley" },
+			{ "a": "Gale Sayers" },
+			{ "a": "Himself" },
+			{ "a": "O.J. Simpson" }
+		]
+		
+	},
+
+	{
+		"question": "Art Modell bought the team in...?",
+		"correct": "1961",
+		"answers": [
+			{ "a": "1960" },
+			{ "a": "1961" },
+			{ "a": "1962" },
+			{ "a": "1963" }
+		]
+	},
+
+	{ 
+		"question": "Leroy Kelly never won the rushing title.",
+		"correct": "False",
+		"answers": [
+			{ "a": "True" },
+			{ "a": "False" }
+		]
+		
+	},
+	{ 
+		"question": "Leroy Kelly was named to how many Pro Bowls in the 60s?",
+		"correct": "3",
+		"answers": [
+			{ "a": "1" },
+			{ "a": "2" },
+			{ "a": "3" },
+			{ "a": "4" }
+		]
+		
+	}
+
+	]}
