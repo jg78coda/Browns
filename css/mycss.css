@@ -5,6 +5,10 @@ html, body {
 	--ques: #f5e6e2;
 }
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
 
 .container-fluid {
   /* padding: .5rem;*/
@@ -14,12 +18,33 @@ html, body {
 .frontBGD {
 	background: url(../images/jim-brown.jpg) no-repeat center center fixed;
 	background-size: cover;
+	text-align: center;
 }
 
 .frontGraphic {
-	height: 70%;
 	padding-top: 20%;
 }
+
+.football-only {
+/*position: absolute;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);*/
+
+}
+
+#holder-only {
+position: absolute;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+z-index: 2;
+}
+
+/* NO OBJECT - MESSES UP MARKER    object {
+	width: 90%;
+	padding: 0;
+}*/
 
 .bgdpattern {
 	background: url(../images/grass1.jpg);
@@ -40,10 +65,10 @@ html, body {
 
 .header p {
 	font-family: arial, sans-serif;
-	font-size: 1.25rem;
-	line-height: 230%;
+	font-size: 1.0rem;
+	line-height: 300%;
 	color: #fff;
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 .no-gutter > [class*='col-'] {
@@ -70,7 +95,6 @@ html, body {
 
 .photo {
 	object-fit: cover;
-	
 }
 
 
@@ -81,11 +105,11 @@ html, body {
 	background-color: #e03e11;
 	/*padding: .5rem;*/
 	margin-bottom: 1.5rem;
-	height: 2.0rem;
+	height: 1.8rem;
 }
 
 .sectionTitle p {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	margin-bottom: 1px;
 	/*line-height: 200%;*/
 }
@@ -116,8 +140,8 @@ section div {
 	border: 2px solid #F8CFC6;
 	border-radius: .5rem;
 	margin-bottom: .5rem;
-	padding: .3rem;
-	min-height: 6vh;
+	padding: .2rem;
+	min-height: 4vh;
 }
 
 section p {
@@ -125,7 +149,7 @@ section p {
 	margin: 0 0 0 15%;
 	/*display: inline-block;*/
 	/*vertical-align: middle;*/
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 	line-height: 110%;
 	padding: .3rem;
 }
@@ -133,7 +157,7 @@ section p {
 .question {
 	background-color: #f5e6e2;
 	border: 2px solid #fff;
-	min-height: 10vh;
+	min-height: 8vh;
 	/*border-radius: .5rem;
 	margin-bottom: 0.5rem;
 	padding-top: .5rem;*/
@@ -268,15 +292,15 @@ section p {
 }
 
 .modal-body p {
-	font-size: 24px;
+	font-size: 21px;
 }
 
 .myModalBtn {
-	padding: 10px 30px;
+	padding: 8px 20px;
 	margin: 15px 5px;
 	color: #fff;
-	font-size: 24px;
-	border-radius: 10px;
+	font-size: 17px;
+	border-radius: 8px;
 	background-color: #e03e11;
 	border: none;
 }
@@ -284,16 +308,16 @@ section p {
 .myMenuBtn {
 	padding: 10px 17px;
 	margin: 15px 5px;
-	font-size: 22px;
+	font-size: 17px;
 }
 
 .menuDivs {
 	background-color: #fff;
 	border: 2px solid var(--b_brown);
 	border-radius: .5rem;
-	min-height: 50px;
-	margin-bottom: .5rem;
-	padding-top: .15rem;	
+	min-height: 30px;
+	margin-bottom: .95rem;
+	padding-top: 0rem;	
 	color: var(--b_brown);
 	text-decoration: none;
 }
@@ -366,7 +390,11 @@ section p {
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 576px) {
+
+	object {
+		width: 70%;
+	}
 
 	.header {
 	background-color: #42210b;
