@@ -1,13 +1,15 @@
 function init() {
 	
 	
-	var spiral = document.getElementById("Layer_1");
-	var spiral2 = document.getElementById("Layer_2");
+	var svgObjectF = document.getElementById("front") ,
+	svgDocF = svgObjectF.contentDocument;
+	
+	var spiral = svgDocF.getElementById("Layer_1");
+	var spiral2 = svgDocF.getElementById("Layer_2");
 	
 	TweenMax.to(spiral, 35, {rotation:360, transformOrigin:"50% 50%", ease:Linear.easeNone, repeat: -1 });
 	TweenMax.to(spiral2, 45, {rotation:360, transformOrigin:"50% 50%", ease:Linear.easeNone, repeat: -1 });
 	
-
     var svgObject = document.getElementById("footballAll") ,
 	svgDoc = svgObject.contentDocument ,
 	svgChild = svgDoc.getElementById("Football");
@@ -30,7 +32,8 @@ function init() {
 	function changePage() {
 		location.href = 'categories.html';
 	}
-		
+	
+
 	sessionStorage.setItem("0", "0");
 	sessionStorage.setItem("1", "0");
 	sessionStorage.setItem("2", "0");
