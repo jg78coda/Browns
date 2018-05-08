@@ -128,7 +128,7 @@ z-index: 2;
 
 
 section div {
-	border: 2px solid #F8CFC6;
+	border: 2px solid #fff;
 	border-radius: .5rem;
 	margin-bottom: .5rem;
 	padding: .2rem;
@@ -157,8 +157,8 @@ section p {
 
 .notselected {
 	background: url(../images/stripes2.png) no-repeat;
-	background-position: left top;
-	background-size: 15%;
+	/*background-position: left top;
+	background-size: 15%;*/
 	background-color: #f5e6e2;
 }
 
