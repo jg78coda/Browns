@@ -10,19 +10,19 @@ switch (myParam) {
 
 			case '0':
 				loadJSON = 'json/50s_60s.json';
-				photo.src="images/sectionPhoto50s60s.jpg";
+				photo.src="images/sectionPhoto50s60s.gif";
 				break;
 			case '1':
 				loadJSON = 'json/Kardiac_Kids.json';
-				photo.src="images/sectionPhotokardiac.jpg";
+				photo.src="images/sectionPhotokardiac.gif";
 				break;
 			case '2':
 				loadJSON = 'json/Bernie_Kosar.json';
-				photo.src="images/sectionPhotobk.jpg";
+				photo.src="images/sectionPhotobk.gif";
 				break;
 			case '3':
 				loadJSON = 'json/ThisThatOther.json';
-				photo.src="images/sectionPhotothisthat.jpg";
+				photo.src="images/sectionPhotothisthat.gif";
 				break;
 		}
 
@@ -33,7 +33,6 @@ var section = document.querySelector('section');
 
 var request = new XMLHttpRequest();
 
-/*request.open('GET', 'json/Bernie_Kosar.json', true);*/
 request.open('GET', loadJSON, true);
 
 		request.onload = function () {
