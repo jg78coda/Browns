@@ -16,7 +16,7 @@ html, body {
 }
 
 .frontBGD {
-	background: url(../images/jim-brown.gif) no-repeat center center fixed;
+	background: url(../images/jim-brownBW.jpg) no-repeat center center fixed;
 	background-size: cover;
 	text-align: center;
 }
