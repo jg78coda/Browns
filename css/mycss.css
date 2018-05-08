@@ -156,9 +156,10 @@ section p {
 }
 
 .notselected {
-	background: url(../images/stripes2.png) no-repeat;
-	/*background-position: left top;
-	background-size: 15%;*/
+	background-image: url(../images/stripes2.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
 	background-color: #f5e6e2;
 }
 
