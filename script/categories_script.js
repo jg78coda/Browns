@@ -220,21 +220,6 @@ var game = {
 				break;
 		}
 
-		/*switch (theId) {
-
-			case 'c0':
-				location.href = '50s_60s.html?myParam=1';
-				break;
-			case 'c1':
-				location.href = 'Kardiac_Kids.html?myParam=2';
-				break;
-			case 'c2':
-				location.href = 'Bernie_Kosar.html?myParam=3';
-				break;
-			case 'c3':
-				location.href = 'ThisThatOther.html?myParam=4';
-				break;
-		}*/
 	},
 
 	menuModal: function() {
