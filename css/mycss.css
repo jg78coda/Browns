@@ -159,7 +159,7 @@ section p {
 	background: url(../images/stripes2.png) no-repeat;
 	background-position: left top;
 	background-size: 15%;
-	background-color: var(--ques);
+	background-color: #f5e6e2;
 }
 
 .notselected p {
@@ -169,7 +169,7 @@ section p {
 	background: url(../images/stripes2.png) no-repeat;
 	background-position: left top;
 	background-size: 15%;
-	background-color: var(--b_orange);
+	background-color: #e03e11;
 }
 
 .selected p {
