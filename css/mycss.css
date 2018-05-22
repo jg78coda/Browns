@@ -22,7 +22,9 @@ html, body {
 }
 
 .frontGraphic {
-	padding-top: 20%;
+	padding: 25% 10% 0%;
+	width: 35%;
+	text-align: center;
 }
 
 #holder-only {
@@ -79,7 +81,7 @@ z-index: 2;
 }
 
 .photoBlock {
-	max-height: 15vh;
+	max-height: 10vh;
 	overflow: hidden;
 	text-align: center;
 }
@@ -95,12 +97,12 @@ z-index: 2;
 	text-align: center;
 	background-color: #e03e11;
 	/*padding: .5rem;*/
-	margin-bottom: 1.5rem;
-	height: 1.8rem;
+	margin-bottom: .75rem;
+	height: 1.5rem;
 }
 
 .sectionTitle p {
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 	margin-bottom: 1px;
 	/*line-height: 200%;*/
 }
@@ -131,8 +133,8 @@ section div {
 	border: 2px solid #fff;
 	border-radius: .5rem;
 	margin-bottom: .5rem;
-	padding: .2rem;
-	min-height: 4vh;
+	padding: .1rem;
+	min-height: 3.5vh;
 }
 
 section p {
@@ -152,7 +154,7 @@ section p {
 }
 
 .question p {
-	margin: 0 2% 2% 2%;
+	margin: 0 2% 0% 2%;
 }
 
 .notselected {
@@ -236,7 +238,7 @@ section p {
 .modal-content {
     background-color: #fefefe;
     text-align: center;
-    margin: 45% auto; /* 15% from the top and centered */
+    margin: 25% auto; /* 15% from the top and centered */
     padding: 10px;
     border: 1px solid #888;
     border-radius: 10px;
@@ -355,6 +357,10 @@ section p {
 	
 }
 
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
 
 @media screen and (min-width: 576px) {
 
